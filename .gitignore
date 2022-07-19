@@ -1,6 +1,6 @@
 Catch2/Catch2
-/Catch2/CMakeUserPresets.json
 /Catch2/build-msvc2022-x64-LLVM
 build-msvc2022-x64-LLVM
 /eigen/eigen-3.4.0.zip
 eigen-3.4.0
+cmakebase

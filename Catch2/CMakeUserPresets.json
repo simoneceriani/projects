@@ -1,0 +1,18 @@
+{
+    "version": 3,
+    "cmakeMinimumRequired": {
+        "major": 3,
+        "minor": 21,
+        "patch": 0
+    },    
+    "configurePresets": [
+        {
+            "name": "msvc2022-x64-LLVM",
+            "binaryDir": "${sourceParentDir}/build-${presetName}",
+            "installDir": "${sourceParentDir}/../../libs/Catch2",
+            "generator": "Visual Studio 17 2022",
+            "architecture": "x64",
+			"toolset":"ClangCL"
+        }
+    ]
+}

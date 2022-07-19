@@ -23,6 +23,13 @@ generate.bat
 build.bat
 install.bat
 
+cd %BASE_PATH%
+ECHO -------------------- eigen done ----------------
+
+ECHO -------------------- cmakebase------------------
+
+scripts\cclone_cmakebase.bat
+
 ECHO -------------------- eigen done ----------------
 
 cd %BASE_PATH%
