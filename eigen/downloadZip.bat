@@ -9,6 +9,8 @@ powershell.exe -Command (new-object System.Net.WebClient).DownloadFile('%SourceP
 
 powershell Expand-Archive %TargetPath% -DestinationPath ./
 
+del %TargetPath%
+
 cd %BASE_PATH%
 
 pause
